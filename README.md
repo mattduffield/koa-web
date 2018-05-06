@@ -1,1 +1,3 @@
-# koa-web
+# koa-web: Koa for the browser
+
+
