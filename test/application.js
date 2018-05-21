@@ -21,7 +21,7 @@ test("Basic app", async function(t) {
   t.equal(res.status, 200);
 
   var body = await res.text();
-  t.equal(body, "<h4>Hello World</h4>");
+  t.equal(body, "Hello /world");
   t.end();
 });
 
